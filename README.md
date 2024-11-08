@@ -51,7 +51,7 @@ public override void _Process(double delta)
 GDScript Example that will print in the HH:MM format:
 ```gdscript
 @export var dayNightCycle: DirectionalLight3D
-func _process(float delta):
+func _process(delta):
    print("%02d %02d" % [dayNightCycle.hours, dayNightCycle.minutes])
 ```
 
