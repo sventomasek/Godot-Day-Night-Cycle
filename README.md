@@ -13,7 +13,7 @@ Example where the sun rises at 6 and sets at 18:
 </p>
 
 # How To Install
-1. Download the latest release
+1. Download the latest release and extract it
 2. Create a folder called 'addons' in your Godot project
 3. Place the 'DayNightCycle' folder you downloaded into the 'addons' folder
 4. Add an Environment to your scene using the three dots [like this](https://raw.githubusercontent.com/sventomasek/Godot-Day-Night-Cycle/refs/heads/main/HowTo.png)
