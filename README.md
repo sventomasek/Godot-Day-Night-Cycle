@@ -25,17 +25,6 @@ Example where the sun rises at 6 and sets at 18:
 10. If you run the scene now and have a Camera3D pointing forward you should see some clouds and the sun moving upward.
 11. To check if the whole cycle is correct set 'Speed Multiplier' to 100
 
-# Customizing It
-On your Sun node there's various properties that can be customized to your liking.
-
-Under the Time section you can change the speed multiplier which will make time go faster, while seconds per minute will change how long a minute is in real seconds.
-
-You can also change the current time to make your scene start at a different time of day (in minutes so 480 = 8 AM).
-Day length and sun rise/set hour can also be changed.
-
-The light intensity and star intensity can be adjusted under the Lighting section.
-The colors of the sky can be adjusted under the Colors section.
-
 # How To Get The Current Time
 You can get the time by referencing the main DirectionalLight3D that has the DayNightCycle script on it and using the 'hours' and 'minutes' variables.
 
@@ -54,6 +43,17 @@ GDScript Example that will print in the HH:MM format:
 func _process(delta):
    print("%02d %02d" % [dayNightCycle.hours, dayNightCycle.minutes])
 ```
+
+# Customizing It
+On your Sun node there's various properties that can be customized to your liking.
+
+Under the Time section you can change the speed multiplier which will make time go faster, while seconds per minute will change how long a minute is in real seconds.
+
+You can also change the current time to make your scene start at a different time of day (in minutes so 480 = 8 AM).
+Day length and sun rise/set hour can also be changed.
+
+The light intensity and star intensity can be adjusted under the Lighting section.
+The colors of the sky can be adjusted under the Colors section.
 
 # Need Help?
 You can contact me in my Discord server https://discord.gg/MsF7kN54T7
