@@ -29,6 +29,7 @@ Example where the sun rises at 6 and sets at 18:
 All you have to do is remove or change some of the lines in the code (the ones that go like 'SetShaderParameter' or 'set_shader_parameter')
 
 They're used to gradually change the shader propetries so you'll have to check the names of your shader's properties and replace them with the current ones (e.g. changing sky color from day to night).
+
 If your shader automatically changes the colors based on the Sun's position you can probably just remove them.
 
 # How To Get The Current Time
