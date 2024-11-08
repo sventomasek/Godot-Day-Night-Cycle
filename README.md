@@ -25,6 +25,12 @@ Example where the sun rises at 6 and sets at 18:
 10. If you run the scene now and have a Camera3D pointing forward you should see some clouds and the sun moving upward.
 11. To check if the whole cycle is correct set 'Speed Multiplier' to 100
 
+# How To Use With A Different Shader
+All you have to do is remove or change some of the lines in the code (the ones that go like 'SetShaderParameter' or 'set_shader_parameter')
+
+They're used to gradually change the shader propetries so you'll have to check the names of your shader's properties and replace them with the current ones (e.g. changing sky color from day to night).
+If your shader automatically changes the colors based on the Sun's position you can probably just remove them.
+
 # How To Get The Current Time
 You can get the time by referencing the main DirectionalLight3D that has the DayNightCycle script on it and using the 'hours' and 'minutes' variables.
 
