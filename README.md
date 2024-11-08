@@ -47,6 +47,8 @@ func _process(delta):
 # Customizing It
 On your Sun node there's various properties that can be customized to your liking.
 
+If you want your Sun to rise in the east you can change the 'Rotation Offset' Y to -90
+
 Under the Time section you can change the speed multiplier which will make time go faster, while seconds per minute will change how long a minute is in real seconds.
 
 You can also change the current time to make your scene start at a different time of day (in minutes so 480 = 8 AM).
