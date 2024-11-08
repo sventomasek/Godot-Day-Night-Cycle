@@ -27,6 +27,7 @@ Example where the sun rises at 6 and sets at 18:
 On your Sun node there's various properties that can be customized to your liking.
 
 Under the Time section you can change the speed multiplier which will make time go faster, while seconds per minute will change how long a minute is in real seconds.
+
 You can also change the current time to make your scene start at a different time of day.
 Day length and sun rise/set hour can also be changed.
 
