@@ -13,15 +13,16 @@ Example where the sun rises at 6 and sets at 18:
 </p>
 
 # How To Install
-1. Create a folder called 'addons' in your Godot project
-2. Place the 'DayNightCycle' folder you downloaded into the 'addons' folder
-3. Add an Environment to your scene using the three dots [like this](https://raw.githubusercontent.com/sventomasek/Godot-Day-Night-Cycle/refs/heads/main/HowTo.png)
-4. On the Environment under Sky set 'Sky Material' to 'Sky_Day.tres' located in '/addons/DayNightCycle/'
-5. Add a DirectionalLight3D to your scene [like this but the button on the left](https://raw.githubusercontent.com/sventomasek/Godot-Day-Night-Cycle/refs/heads/main/HowTo.png)
-6. Attach the DayNightCycle script to the DirectionalLight3D ('DayNightCycle.gd' can be used with any build of Godot while 'DayNightCycle.cs' requires the .NET build)
-7. With the DirectionalLight3D selected assign your WorldEnvironment to the 'World Environment' property in the inspector.
-8. For the 'Night Light' property create a new DirectionalLight3D node as a child of the Sun node, set the Y rotation of it to 180 and assign it in the inspector.
-9. If you run the scene now and have a Camera3D pointing forward you should see some clouds and the sun moving upward.
+1. Download the latest release
+2. Create a folder called 'addons' in your Godot project
+3. Place the 'DayNightCycle' folder you downloaded into the 'addons' folder
+4. Add an Environment to your scene using the three dots [like this](https://raw.githubusercontent.com/sventomasek/Godot-Day-Night-Cycle/refs/heads/main/HowTo.png)
+5. On the Environment under Sky set 'Sky Material' to 'Sky_Day.tres' located in '/addons/DayNightCycle/'
+6. Add a DirectionalLight3D to your scene [like this but the button on the left](https://raw.githubusercontent.com/sventomasek/Godot-Day-Night-Cycle/refs/heads/main/HowTo.png)
+7. Attach the DayNightCycle script to the DirectionalLight3D ('DayNightCycle.gd' can be used with any build of Godot while 'DayNightCycle.cs' requires the .NET build)
+8. With the DirectionalLight3D selected assign your WorldEnvironment to the 'World Environment' property in the inspector.
+9. For the 'Night Light' property create a new DirectionalLight3D node as a child of the Sun node, set the Y rotation of it to 180 and assign it in the inspector.
+10. If you run the scene now and have a Camera3D pointing forward you should see some clouds and the sun moving upward.
 
 # Customizing It
 On your Sun node there's various properties that can be customized to your liking.
