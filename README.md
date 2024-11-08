@@ -15,7 +15,7 @@ Example where the sun rises at 6 and sets at 18:
 # How To Install
 1. Download the latest release and extract it
 2. Create a folder called 'addons' in your Godot project
-3. Place the 'DayNightCycle' folder you downloaded into the 'addons' folder
+3. Place the 'DayNightCycle' folder into the 'addons' folder (!The location and name must be exact!)
 4. Add an Environment to your scene using the three dots [like this](https://raw.githubusercontent.com/sventomasek/Godot-Day-Night-Cycle/refs/heads/main/HowTo.png)
 5. On the Environment under Sky set 'Sky Material' to 'Sky_Day.tres' located in '/addons/DayNightCycle/'
 6. Add a DirectionalLight3D to your scene [like this but the button on the left](https://raw.githubusercontent.com/sventomasek/Godot-Day-Night-Cycle/refs/heads/main/HowTo.png)
