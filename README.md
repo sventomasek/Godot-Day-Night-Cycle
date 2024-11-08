@@ -36,6 +36,25 @@ Day length and sun rise/set hour can also be changed.
 The light intensity and star intensity can be adjusted under the Lighting section.
 The colors of the sky can be adjusted under the Colors section.
 
+# How To Get The Current Time
+You can get the time by referencing the main DirectionalLight3D that has the DayNightCycle script on it and using the 'hours' and 'minutes' variables.
+
+C# Example that will print in the HH:MM format:
+```csharp
+[Export] private DayNightCycle dayNightCycle;
+public override void _Process(double delta)
+{
+   GD.Print($"{dayNightCycle.hours:D2}:{dayNightCycle.minutes:D2}");
+}
+```
+
+GDScript Example that will print in the HH:MM format:
+```gdscript
+@export var dayNightCycle: DirectionalLight3D
+func _process(float delta):
+   print("%02d %02d" % [dayNightCycle.hours, dayNightCycle.minutes])
+```
+
 # Need Help?
 You can contact me in my Discord server https://discord.gg/MsF7kN54T7
 
