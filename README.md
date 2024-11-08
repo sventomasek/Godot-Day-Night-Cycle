@@ -9,7 +9,7 @@ A modified version of a sky shader is included. The [original shader](https://gi
 Example where the sun rises at 6 and sets at 18:
 
 <p float="left">
-   <img src="https://github.com/sventomasek/Godot-Day-Night-Cycle/blob/main/Example.gif" width="800" />
+   <img src="https://github.com/sventomasek/Godot-Day-Night-Cycle/blob/main/Example.gif" width="600" />
 </p>
 
 # How To Install
