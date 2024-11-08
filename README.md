@@ -23,6 +23,7 @@ Example where the sun rises at 6 and sets at 18:
 8. With the DirectionalLight3D selected assign your WorldEnvironment to the 'World Environment' property in the inspector.
 9. For the 'Night Light' property create a new DirectionalLight3D node as a child of the Sun node, set the Y rotation of it to 180 and assign it in the inspector.
 10. If you run the scene now and have a Camera3D pointing forward you should see some clouds and the sun moving upward.
+11. To check if the whole cycle is correct set 'Speed Multiplier' to 100
 
 # Customizing It
 On your Sun node there's various properties that can be customized to your liking.
