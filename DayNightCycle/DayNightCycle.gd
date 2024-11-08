@@ -33,7 +33,7 @@ var sky: ShaderMaterial
 var currentColor: Color
 var colorToLerp: Color
 
-@export_group("Clouds")
+@export_subgroup("Clouds")
 @export var dayCloudColor := Color("ffffff")
 @export var nightCloudColor := Color("0a0b18")
 
