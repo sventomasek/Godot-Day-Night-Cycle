@@ -13,6 +13,10 @@ Example where the sun rises at 6 and sets at 18:
 </p>
 
 # How To Install
+Here is a [video tutorial](https://youtu.be/ecRGtjlsOTA) on it!
+
+And a text tutorial if you prefer that:
+
 1. Download the latest release and extract it
 2. Create a folder called 'addons' in your Godot project (must be under res://)
 3. Place the 'DayNightCycle' folder into the 'addons' folder (!The location and name must be exact!)
@@ -48,7 +52,7 @@ GDScript Example that will print in the HH:MM format:
 ```gdscript
 @export var dayNightCycle: DirectionalLight3D
 func _process(delta):
-   print("%02d %02d" % [dayNightCycle.hours, dayNightCycle.minutes])
+   print("%02d:%02d" % [dayNightCycle.hours, dayNightCycle.minutes])
 ```
 
 # Customizing It
